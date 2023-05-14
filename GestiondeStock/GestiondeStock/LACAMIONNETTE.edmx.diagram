@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="2d3065128f564029b03a4c7815a0a423" Name="Diagram1">
+        <EntityTypeShape EntityType="LACAMIONNETTEModel.Brasserie" Width="1.5" PointX="0.75" PointY="5" />
+        <EntityTypeShape EntityType="LACAMIONNETTEModel.Categorie" Width="1.5" PointX="0.75" PointY="1.625" />
+        <EntityTypeShape EntityType="LACAMIONNETTEModel.Client" Width="1.5" PointX="6" PointY="0.75" />
+        <EntityTypeShape EntityType="LACAMIONNETTEModel.Commande" Width="1.5" PointX="5.25" PointY="4.375" />
+        <EntityTypeShape EntityType="LACAMIONNETTEModel.Depense" Width="1.5" PointX="2.75" PointY="9" />
+        <EntityTypeShape EntityType="LACAMIONNETTEModel.Incident" Width="1.5" PointX="4.75" PointY="9" />
+        <EntityTypeShape EntityType="LACAMIONNETTEModel.Modele" Width="1.5" PointX="0.75" PointY="8.25" />
+        <EntityTypeShape EntityType="LACAMIONNETTEModel.Produit" Width="1.5" PointX="3" PointY="4" />
+        <EntityTypeShape EntityType="LACAMIONNETTEModel.Utilisateur" Width="1.5" PointX="6.75" PointY="9" />
+        <EntityTypeShape EntityType="LACAMIONNETTEModel.Vente" Width="1.5" PointX="8.25" PointY="4.25" />
+        <AssociationConnector Association="LACAMIONNETTEModel.FK_Produit_Brasserie" />
+        <AssociationConnector Association="LACAMIONNETTEModel.FK_Produit_Categorie" />
+        <AssociationConnector Association="LACAMIONNETTEModel.FK_Vente_Client" />
+        <AssociationConnector Association="LACAMIONNETTEModel.FK_Commande_Produit" />
+        <AssociationConnector Association="LACAMIONNETTEModel.FK_Produit_Modele" />
+        <AssociationConnector Association="LACAMIONNETTEModel.FK_Vente_Produit" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

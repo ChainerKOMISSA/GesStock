@@ -1,0 +1,15 @@
+﻿<Window x:Class="GestiondeStock.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GestiondeStock"
+        mc:Ignorable="d"
+        Title="Gestion de Stock" Height="500" Width="1000">
+    <Grid Margin="0,0,0.333,13.667">
+        <Button Content="Ouvrir" Name="btnprincipal" Click="btnprincipal_Click_1" Margin="411,284,410,116"/>
+        <Label Content="Inventoria" HorizontalAlignment="Left" Margin="289,112,0,0" VerticalAlignment="Top" FontSize="80" FontFamily="Montserrat" Foreground="DarkSlateBlue"/>
+        <Label Content="Bienvenue sur" HorizontalAlignment="Left" Margin="379,87,0,0" VerticalAlignment="Top" FontSize="30" FontFamily="Montserrat" Foreground="Black"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSetVente" targetNamespace="http://tempuri.org/DataSetVente.xsd" xmlns:mstns="http://tempuri.org/DataSetVente.xsd" xmlns="http://tempuri.org/DataSetVente.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="LACAMIONNETTEConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="LACAMIONNETTEConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.GestiondeStock.Properties.Settings.GlobalReference.Default.LACAMIONNETTEConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="DataTable1TableAdapter" GeneratorDataComponentClassName="DataTable1TableAdapter" Name="DataTable1" UserDataComponentName="DataTable1TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="LACAMIONNETTEConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT Client.Nom_Client, Modele.Libelle_Modele, Produit.Nom_Produit, Vente.*
+FROM   Produit INNER JOIN
+            Modele ON Produit.Id_Modele = Modele.Id_Modele INNER JOIN
+            Vente ON Produit.Id_Produit = Vente.Id_Produit INNER JOIN
+            Client ON Vente.Id_Client = Client.Id_Client</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Nom_Client" DataSetColumn="Nom_Client" />
+              <Mapping SourceColumn="Libelle_Modele" DataSetColumn="Libelle_Modele" />
+              <Mapping SourceColumn="Nom_Produit" DataSetColumn="Nom_Produit" />
+              <Mapping SourceColumn="Id_Vente" DataSetColumn="Id_Vente" />
+              <Mapping SourceColumn="Id_Produit" DataSetColumn="Id_Produit" />
+              <Mapping SourceColumn="Id_Modele" DataSetColumn="Id_Modele" />
+              <Mapping SourceColumn="Prix_Vente" DataSetColumn="Prix_Vente" />
+              <Mapping SourceColumn="Quantite_Vente" DataSetColumn="Quantite_Vente" />
+              <Mapping SourceColumn="Montant_Vente" DataSetColumn="Montant_Vente" />
+              <Mapping SourceColumn="Id_Client" DataSetColumn="Id_Client" />
+              <Mapping SourceColumn="Date_Vente" DataSetColumn="Date_Vente" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSetVente" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSetVente" msprop:Generator_UserDSName="DataSetVente">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable1" msprop:Generator_TableClassName="DataTable1DataTable" msprop:Generator_TableVarName="tableDataTable1" msprop:Generator_TablePropName="DataTable1" msprop:Generator_RowDeletingName="DataTable1RowDeleting" msprop:Generator_RowChangingName="DataTable1RowChanging" msprop:Generator_RowEvHandlerName="DataTable1RowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable1RowDeleted" msprop:Generator_UserTableName="DataTable1" msprop:Generator_RowChangedName="DataTable1RowChanged" msprop:Generator_RowEvArgName="DataTable1RowChangeEvent" msprop:Generator_RowClassName="DataTable1Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Nom_Client" msprop:Generator_ColumnVarNameInTable="columnNom_Client" msprop:Generator_ColumnPropNameInRow="Nom_Client" msprop:Generator_ColumnPropNameInTable="Nom_ClientColumn" msprop:Generator_UserColumnName="Nom_Client">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Libelle_Modele" msprop:Generator_ColumnVarNameInTable="columnLibelle_Modele" msprop:Generator_ColumnPropNameInRow="Libelle_Modele" msprop:Generator_ColumnPropNameInTable="Libelle_ModeleColumn" msprop:Generator_UserColumnName="Libelle_Modele">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Nom_Produit" msprop:Generator_ColumnVarNameInTable="columnNom_Produit" msprop:Generator_ColumnPropNameInRow="Nom_Produit" msprop:Generator_ColumnPropNameInTable="Nom_ProduitColumn" msprop:Generator_UserColumnName="Nom_Produit">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Id_Vente" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnId_Vente" msprop:Generator_ColumnPropNameInRow="Id_Vente" msprop:Generator_ColumnPropNameInTable="Id_VenteColumn" msprop:Generator_UserColumnName="Id_Vente" type="xs:int" />
+              <xs:element name="Id_Produit" msprop:Generator_ColumnVarNameInTable="columnId_Produit" msprop:Generator_ColumnPropNameInRow="Id_Produit" msprop:Generator_ColumnPropNameInTable="Id_ProduitColumn" msprop:Generator_UserColumnName="Id_Produit" type="xs:int" />
+              <xs:element name="Id_Modele" msprop:Generator_ColumnVarNameInTable="columnId_Modele" msprop:Generator_ColumnPropNameInRow="Id_Modele" msprop:Generator_ColumnPropNameInTable="Id_ModeleColumn" msprop:Generator_UserColumnName="Id_Modele" type="xs:int" />
+              <xs:element name="Prix_Vente" msprop:Generator_ColumnVarNameInTable="columnPrix_Vente" msprop:Generator_ColumnPropNameInRow="Prix_Vente" msprop:Generator_ColumnPropNameInTable="Prix_VenteColumn" msprop:Generator_UserColumnName="Prix_Vente" type="xs:int" />
+              <xs:element name="Quantite_Vente" msprop:Generator_ColumnVarNameInTable="columnQuantite_Vente" msprop:Generator_ColumnPropNameInRow="Quantite_Vente" msprop:Generator_ColumnPropNameInTable="Quantite_VenteColumn" msprop:Generator_UserColumnName="Quantite_Vente" type="xs:int" />
+              <xs:element name="Montant_Vente" msprop:Generator_ColumnVarNameInTable="columnMontant_Vente" msprop:Generator_ColumnPropNameInRow="Montant_Vente" msprop:Generator_ColumnPropNameInTable="Montant_VenteColumn" msprop:Generator_UserColumnName="Montant_Vente">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Id_Client" msprop:Generator_ColumnVarNameInTable="columnId_Client" msprop:Generator_ColumnPropNameInRow="Id_Client" msprop:Generator_ColumnPropNameInTable="Id_ClientColumn" msprop:Generator_UserColumnName="Id_Client" type="xs:int" />
+              <xs:element name="Date_Vente" msprop:Generator_ColumnVarNameInTable="columnDate_Vente" msprop:Generator_ColumnPropNameInRow="Date_Vente" msprop:Generator_ColumnPropNameInTable="Date_VenteColumn" msprop:Generator_UserColumnName="Date_Vente" type="xs:dateTime" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:DataTable1" />
+      <xs:field xpath="mstns:Id_Vente" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

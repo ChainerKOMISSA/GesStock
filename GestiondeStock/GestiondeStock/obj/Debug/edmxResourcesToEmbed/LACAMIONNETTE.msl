@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="LACAMIONNETTEModelStoreContainer" CdmEntityContainer="MyContext">
+    <EntitySetMapping Name="Brasseries">
+      <EntityTypeMapping TypeName="LACAMIONNETTEModel.Brasserie">
+        <MappingFragment StoreEntitySet="Brasserie">
+          <ScalarProperty Name="Nom_Brasserie" ColumnName="Nom_Brasserie" />
+          <ScalarProperty Name="Id_Brasserie" ColumnName="Id_Brasserie" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Categories">
+      <EntityTypeMapping TypeName="LACAMIONNETTEModel.Categorie">
+        <MappingFragment StoreEntitySet="Categorie">
+          <ScalarProperty Name="Description_Categorie" ColumnName="Description_Categorie" />
+          <ScalarProperty Name="Libelle_Categorie" ColumnName="Libelle_Categorie" />
+          <ScalarProperty Name="Id_Categorie" ColumnName="Id_Categorie" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Clients">
+      <EntityTypeMapping TypeName="LACAMIONNETTEModel.Client">
+        <MappingFragment StoreEntitySet="Client">
+          <ScalarProperty Name="Localisation_Client" ColumnName="Localisation_Client" />
+          <ScalarProperty Name="Contact_Client" ColumnName="Contact_Client" />
+          <ScalarProperty Name="Nom_Client" ColumnName="Nom_Client" />
+          <ScalarProperty Name="Id_Client" ColumnName="Id_Client" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Commandes">
+      <EntityTypeMapping TypeName="LACAMIONNETTEModel.Commande">
+        <MappingFragment StoreEntitySet="Commande">
+          <ScalarProperty Name="Date_Cmd" ColumnName="Date_Cmd" />
+          <ScalarProperty Name="Montant_Cmd" ColumnName="Montant_Cmd" />
+          <ScalarProperty Name="Quantite_Cmd" ColumnName="Quantite_Cmd" />
+          <ScalarProperty Name="Prix_Achat" ColumnName="Prix_Achat" />
+          <ScalarProperty Name="Id_Modele" ColumnName="Id_Modele" />
+          <ScalarProperty Name="Id_Produit" ColumnName="Id_Produit" />
+          <ScalarProperty Name="Id_Commande" ColumnName="Id_Commande" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Depenses">
+      <EntityTypeMapping TypeName="LACAMIONNETTEModel.Depense">
+        <MappingFragment StoreEntitySet="Depense">
+          <ScalarProperty Name="Date_Depense" ColumnName="Date_Depense" />
+          <ScalarProperty Name="Montant_Depense" ColumnName="Montant_Depense" />
+          <ScalarProperty Name="Libelle_Depense" ColumnName="Libelle_Depense" />
+          <ScalarProperty Name="Id_Depense" ColumnName="Id_Depense" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Incidents">
+      <EntityTypeMapping TypeName="LACAMIONNETTEModel.Incident">
+        <MappingFragment StoreEntitySet="Incident">
+          <ScalarProperty Name="Date_Incid" ColumnName="Date_Incid" />
+          <ScalarProperty Name="Libelle_Incid" ColumnName="Libelle_Incid" />
+          <ScalarProperty Name="Id_Incid" ColumnName="Id_Incid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Modeles">
+      <EntityTypeMapping TypeName="LACAMIONNETTEModel.Modele">
+        <MappingFragment StoreEntitySet="Modele">
+          <ScalarProperty Name="Libelle_Modele" ColumnName="Libelle_Modele" />
+          <ScalarProperty Name="Id_Modele" ColumnName="Id_Modele" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Produits">
+      <EntityTypeMapping TypeName="LACAMIONNETTEModel.Produit">
+        <MappingFragment StoreEntitySet="Produit">
+          <ScalarProperty Name="Quantite" ColumnName="Quantite" />
+          <ScalarProperty Name="Id_Modele" ColumnName="Id_Modele" />
+          <ScalarProperty Name="Id_Categorie" ColumnName="Id_Categorie" />
+          <ScalarProperty Name="Id_Brasserie" ColumnName="Id_Brasserie" />
+          <ScalarProperty Name="Prix_Produit" ColumnName="Prix_Produit" />
+          <ScalarProperty Name="Nom_Produit" ColumnName="Nom_Produit" />
+          <ScalarProperty Name="Id_Produit" ColumnName="Id_Produit" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Utilisateurs">
+      <EntityTypeMapping TypeName="LACAMIONNETTEModel.Utilisateur">
+        <MappingFragment StoreEntitySet="Utilisateur">
+          <ScalarProperty Name="Mot_de_passe" ColumnName="Mot_de_passe" />
+          <ScalarProperty Name="Nom_Ut" ColumnName="Nom_Ut" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ventes">
+      <EntityTypeMapping TypeName="LACAMIONNETTEModel.Vente">
+        <MappingFragment StoreEntitySet="Vente">
+          <ScalarProperty Name="Date_Vente" ColumnName="Date_Vente" />
+          <ScalarProperty Name="Id_Client" ColumnName="Id_Client" />
+          <ScalarProperty Name="Montant_Vente" ColumnName="Montant_Vente" />
+          <ScalarProperty Name="Quantite_Vente" ColumnName="Quantite_Vente" />
+          <ScalarProperty Name="Prix_Vente" ColumnName="Prix_Vente" />
+          <ScalarProperty Name="Id_Modele" ColumnName="Id_Modele" />
+          <ScalarProperty Name="Id_Produit" ColumnName="Id_Produit" />
+          <ScalarProperty Name="Id_Vente" ColumnName="Id_Vente" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="LACAMIONNETTEModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="MyContext" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Brasseries" EntityType="LACAMIONNETTEModel.Brasserie" />
+    <EntitySet Name="Categories" EntityType="LACAMIONNETTEModel.Categorie" />
+    <EntitySet Name="Clients" EntityType="LACAMIONNETTEModel.Client" />
+    <EntitySet Name="Commandes" EntityType="LACAMIONNETTEModel.Commande" />
+    <EntitySet Name="Depenses" EntityType="LACAMIONNETTEModel.Depense" />
+    <EntitySet Name="Incidents" EntityType="LACAMIONNETTEModel.Incident" />
+    <EntitySet Name="Modeles" EntityType="LACAMIONNETTEModel.Modele" />
+    <EntitySet Name="Produits" EntityType="LACAMIONNETTEModel.Produit" />
+    <EntitySet Name="Utilisateurs" EntityType="LACAMIONNETTEModel.Utilisateur" />
+    <EntitySet Name="Ventes" EntityType="LACAMIONNETTEModel.Vente" />
+    <AssociationSet Name="FK_Produit_Brasserie" Association="LACAMIONNETTEModel.FK_Produit_Brasserie">
+      <End Role="Brasserie" EntitySet="Brasseries" />
+      <End Role="Produit" EntitySet="Produits" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Produit_Categorie" Association="LACAMIONNETTEModel.FK_Produit_Categorie">
+      <End Role="Categorie" EntitySet="Categories" />
+      <End Role="Produit" EntitySet="Produits" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Vente_Client" Association="LACAMIONNETTEModel.FK_Vente_Client">
+      <End Role="Client" EntitySet="Clients" />
+      <End Role="Vente" EntitySet="Ventes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Commande_Produit" Association="LACAMIONNETTEModel.FK_Commande_Produit">
+      <End Role="Produit" EntitySet="Produits" />
+      <End Role="Commande" EntitySet="Commandes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Produit_Modele" Association="LACAMIONNETTEModel.FK_Produit_Modele">
+      <End Role="Modele" EntitySet="Modeles" />
+      <End Role="Produit" EntitySet="Produits" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Vente_Produit" Association="LACAMIONNETTEModel.FK_Vente_Produit">
+      <End Role="Produit" EntitySet="Produits" />
+      <End Role="Vente" EntitySet="Ventes" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Brasserie">
+    <Key>
+      <PropertyRef Name="Id_Brasserie" />
+    </Key>
+    <Property Name="Id_Brasserie" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nom_Brasserie" Type="String" Nullable="false" MaxLength="250" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Produits" Relationship="LACAMIONNETTEModel.FK_Produit_Brasserie" FromRole="Brasserie" ToRole="Produit" />
+  </EntityType>
+  <EntityType Name="Categorie">
+    <Key>
+      <PropertyRef Name="Id_Categorie" />
+    </Key>
+    <Property Name="Id_Categorie" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Libelle_Categorie" Type="String" Nullable="false" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Description_Categorie" Type="String" Nullable="false" MaxLength="250" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Produits" Relationship="LACAMIONNETTEModel.FK_Produit_Categorie" FromRole="Categorie" ToRole="Produit" />
+  </EntityType>
+  <EntityType Name="Client">
+    <Key>
+      <PropertyRef Name="Id_Client" />
+    </Key>
+    <Property Name="Id_Client" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nom_Client" Type="String" Nullable="false" MaxLength="250" FixedLength="false" Unicode="false" />
+    <Property Name="Contact_Client" Type="String" Nullable="false" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Localisation_Client" Type="String" Nullable="false" MaxLength="250" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Ventes" Relationship="LACAMIONNETTEModel.FK_Vente_Client" FromRole="Client" ToRole="Vente" />
+  </EntityType>
+  <EntityType Name="Commande">
+    <Key>
+      <PropertyRef Name="Id_Commande" />
+    </Key>
+    <Property Name="Id_Commande" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Id_Produit" Type="Int32" />
+    <Property Name="Id_Modele" Type="Int32" Nullable="false" />
+    <Property Name="Prix_Achat" Type="Int32" Nullable="false" />
+    <Property Name="Quantite_Cmd" Type="Int32" Nullable="false" />
+    <Property Name="Montant_Cmd" Type="Int32" Nullable="false" />
+    <Property Name="Date_Cmd" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="Produit" Relationship="LACAMIONNETTEModel.FK_Commande_Produit" FromRole="Commande" ToRole="Produit" />
+  </EntityType>
+  <EntityType Name="Depense">
+    <Key>
+      <PropertyRef Name="Id_Depense" />
+    </Key>
+    <Property Name="Id_Depense" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Libelle_Depense" Type="String" Nullable="false" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Montant_Depense" Type="Int32" Nullable="false" />
+    <Property Name="Date_Depense" Type="DateTime" Nullable="false" Precision="3" />
+  </EntityType>
+  <EntityType Name="Incident">
+    <Key>
+      <PropertyRef Name="Id_Incid" />
+    </Key>
+    <Property Name="Id_Incid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Libelle_Incid" Type="String" Nullable="false" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Date_Incid" Type="DateTime" Nullable="false" Precision="3" />
+  </EntityType>
+  <EntityType Name="Modele">
+    <Key>
+      <PropertyRef Name="Id_Modele" />
+    </Key>
+    <Property Name="Id_Modele" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Libelle_Modele" Type="String" Nullable="false" MaxLength="250" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Produits" Relationship="LACAMIONNETTEModel.FK_Produit_Modele" FromRole="Modele" ToRole="Produit" />
+  </EntityType>
+  <EntityType Name="Produit">
+    <Key>
+      <PropertyRef Name="Id_Produit" />
+    </Key>
+    <Property Name="Id_Produit" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nom_Produit" Type="String" Nullable="false" MaxLength="250" FixedLength="false" Unicode="false" />
+    <Property Name="Prix_Produit" Type="Int32" Nullable="false" />
+    <Property Name="Id_Brasserie" Type="Int32" />
+    <Property Name="Id_Categorie" Type="Int32" />
+    <Property Name="Id_Modele" Type="Int32" />
+    <Property Name="Quantite" Type="Int32" />
+    <NavigationProperty Name="Brasserie" Relationship="LACAMIONNETTEModel.FK_Produit_Brasserie" FromRole="Produit" ToRole="Brasserie" />
+    <NavigationProperty Name="Categorie" Relationship="LACAMIONNETTEModel.FK_Produit_Categorie" FromRole="Produit" ToRole="Categorie" />
+    <NavigationProperty Name="Commandes" Relationship="LACAMIONNETTEModel.FK_Commande_Produit" FromRole="Produit" ToRole="Commande" />
+    <NavigationProperty Name="Modele" Relationship="LACAMIONNETTEModel.FK_Produit_Modele" FromRole="Produit" ToRole="Modele" />
+    <NavigationProperty Name="Ventes" Relationship="LACAMIONNETTEModel.FK_Vente_Produit" FromRole="Produit" ToRole="Vente" />
+  </EntityType>
+  <EntityType Name="Utilisateur">
+    <Key>
+      <PropertyRef Name="Nom_Ut" />
+    </Key>
+    <Property Name="Nom_Ut" Type="String" Nullable="false" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Mot_de_passe" Type="String" Nullable="false" MaxLength="250" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Vente">
+    <Key>
+      <PropertyRef Name="Id_Vente" />
+    </Key>
+    <Property Name="Id_Vente" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Id_Produit" Type="Int32" Nullable="false" />
+    <Property Name="Id_Modele" Type="Int32" Nullable="false" />
+    <Property Name="Prix_Vente" Type="Int32" Nullable="false" />
+    <Property Name="Quantite_Vente" Type="Int32" Nullable="false" />
+    <Property Name="Montant_Vente" Type="String" Nullable="false" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Id_Client" Type="Int32" Nullable="false" />
+    <Property Name="Date_Vente" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="Client" Relationship="LACAMIONNETTEModel.FK_Vente_Client" FromRole="Vente" ToRole="Client" />
+    <NavigationProperty Name="Produit" Relationship="LACAMIONNETTEModel.FK_Vente_Produit" FromRole="Vente" ToRole="Produit" />
+  </EntityType>
+  <Association Name="FK_Produit_Brasserie">
+    <End Type="LACAMIONNETTEModel.Brasserie" Role="Brasserie" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="LACAMIONNETTEModel.Produit" Role="Produit" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Brasserie">
+        <PropertyRef Name="Id_Brasserie" />
+      </Principal>
+      <Dependent Role="Produit">
+        <PropertyRef Name="Id_Brasserie" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Produit_Categorie">
+    <End Type="LACAMIONNETTEModel.Categorie" Role="Categorie" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="LACAMIONNETTEModel.Produit" Role="Produit" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Categorie">
+        <PropertyRef Name="Id_Categorie" />
+      </Principal>
+      <Dependent Role="Produit">
+        <PropertyRef Name="Id_Categorie" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Vente_Client">
+    <End Type="LACAMIONNETTEModel.Client" Role="Client" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="LACAMIONNETTEModel.Vente" Role="Vente" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Client">
+        <PropertyRef Name="Id_Client" />
+      </Principal>
+      <Dependent Role="Vente">
+        <PropertyRef Name="Id_Client" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Commande_Produit">
+    <End Type="LACAMIONNETTEModel.Produit" Role="Produit" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="LACAMIONNETTEModel.Commande" Role="Commande" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Produit">
+        <PropertyRef Name="Id_Produit" />
+      </Principal>
+      <Dependent Role="Commande">
+        <PropertyRef Name="Id_Produit" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Produit_Modele">
+    <End Type="LACAMIONNETTEModel.Modele" Role="Modele" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="LACAMIONNETTEModel.Produit" Role="Produit" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Modele">
+        <PropertyRef Name="Id_Modele" />
+      </Principal>
+      <Dependent Role="Produit">
+        <PropertyRef Name="Id_Modele" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Vente_Produit">
+    <End Type="LACAMIONNETTEModel.Produit" Role="Produit" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="LACAMIONNETTEModel.Vente" Role="Vente" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Produit">
+        <PropertyRef Name="Id_Produit" />
+      </Principal>
+      <Dependent Role="Vente">
+        <PropertyRef Name="Id_Produit" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

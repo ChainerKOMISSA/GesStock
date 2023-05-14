@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSetProduit" targetNamespace="http://tempuri.org/DataSetProduit.xsd" xmlns:mstns="http://tempuri.org/DataSetProduit.xsd" xmlns="http://tempuri.org/DataSetProduit.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="LACAMIONNETTEConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="LACAMIONNETTEConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.GestiondeStock.Properties.Settings.GlobalReference.Default.LACAMIONNETTEConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="DataTable1TableAdapter" GeneratorDataComponentClassName="DataTable1TableAdapter" Name="DataTable1" UserDataComponentName="DataTable1TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="LACAMIONNETTEConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT Brasserie.Nom_Brasserie, Modele.Libelle_Modele, Categorie.Libelle_Categorie, Produit.*
+FROM   Brasserie INNER JOIN
+            Produit ON Brasserie.Id_Brasserie = Produit.Id_Brasserie INNER JOIN
+            Categorie ON Produit.Id_Categorie = Categorie.Id_Categorie INNER JOIN
+            Modele ON Produit.Id_Modele = Modele.Id_Modele</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Nom_Brasserie" DataSetColumn="Nom_Brasserie" />
+              <Mapping SourceColumn="Libelle_Modele" DataSetColumn="Libelle_Modele" />
+              <Mapping SourceColumn="Libelle_Categorie" DataSetColumn="Libelle_Categorie" />
+              <Mapping SourceColumn="Id_Produit" DataSetColumn="Id_Produit" />
+              <Mapping SourceColumn="Nom_Produit" DataSetColumn="Nom_Produit" />
+              <Mapping SourceColumn="Prix_Produit" DataSetColumn="Prix_Produit" />
+              <Mapping SourceColumn="Id_Brasserie" DataSetColumn="Id_Brasserie" />
+              <Mapping SourceColumn="Id_Categorie" DataSetColumn="Id_Categorie" />
+              <Mapping SourceColumn="Id_Modele" DataSetColumn="Id_Modele" />
+              <Mapping SourceColumn="Quantite" DataSetColumn="Quantite" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSetProduit" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSetProduit" msprop:Generator_UserDSName="DataSetProduit">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable1" msprop:Generator_TableClassName="DataTable1DataTable" msprop:Generator_TableVarName="tableDataTable1" msprop:Generator_TablePropName="DataTable1" msprop:Generator_RowDeletingName="DataTable1RowDeleting" msprop:Generator_RowChangingName="DataTable1RowChanging" msprop:Generator_RowEvHandlerName="DataTable1RowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable1RowDeleted" msprop:Generator_UserTableName="DataTable1" msprop:Generator_RowChangedName="DataTable1RowChanged" msprop:Generator_RowEvArgName="DataTable1RowChangeEvent" msprop:Generator_RowClassName="DataTable1Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Nom_Brasserie" msprop:Generator_ColumnVarNameInTable="columnNom_Brasserie" msprop:Generator_ColumnPropNameInRow="Nom_Brasserie" msprop:Generator_ColumnPropNameInTable="Nom_BrasserieColumn" msprop:Generator_UserColumnName="Nom_Brasserie">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Libelle_Modele" msprop:Generator_ColumnVarNameInTable="columnLibelle_Modele" msprop:Generator_ColumnPropNameInRow="Libelle_Modele" msprop:Generator_ColumnPropNameInTable="Libelle_ModeleColumn" msprop:Generator_UserColumnName="Libelle_Modele">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Libelle_Categorie" msprop:Generator_ColumnVarNameInTable="columnLibelle_Categorie" msprop:Generator_ColumnPropNameInRow="Libelle_Categorie" msprop:Generator_ColumnPropNameInTable="Libelle_CategorieColumn" msprop:Generator_UserColumnName="Libelle_Categorie">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Id_Produit" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnId_Produit" msprop:Generator_ColumnPropNameInRow="Id_Produit" msprop:Generator_ColumnPropNameInTable="Id_ProduitColumn" msprop:Generator_UserColumnName="Id_Produit" type="xs:int" />
+              <xs:element name="Nom_Produit" msprop:Generator_ColumnVarNameInTable="columnNom_Produit" msprop:Generator_ColumnPropNameInRow="Nom_Produit" msprop:Generator_ColumnPropNameInTable="Nom_ProduitColumn" msprop:Generator_UserColumnName="Nom_Produit">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Prix_Produit" msprop:Generator_ColumnVarNameInTable="columnPrix_Produit" msprop:Generator_ColumnPropNameInRow="Prix_Produit" msprop:Generator_ColumnPropNameInTable="Prix_ProduitColumn" msprop:Generator_UserColumnName="Prix_Produit" type="xs:int" />
+              <xs:element name="Id_Brasserie" msprop:Generator_ColumnVarNameInTable="columnId_Brasserie" msprop:Generator_ColumnPropNameInRow="Id_Brasserie" msprop:Generator_ColumnPropNameInTable="Id_BrasserieColumn" msprop:Generator_UserColumnName="Id_Brasserie" type="xs:int" minOccurs="0" />
+              <xs:element name="Id_Categorie" msprop:Generator_ColumnVarNameInTable="columnId_Categorie" msprop:Generator_ColumnPropNameInRow="Id_Categorie" msprop:Generator_ColumnPropNameInTable="Id_CategorieColumn" msprop:Generator_UserColumnName="Id_Categorie" type="xs:int" minOccurs="0" />
+              <xs:element name="Id_Modele" msprop:Generator_ColumnVarNameInTable="columnId_Modele" msprop:Generator_ColumnPropNameInRow="Id_Modele" msprop:Generator_ColumnPropNameInTable="Id_ModeleColumn" msprop:Generator_UserColumnName="Id_Modele" type="xs:int" minOccurs="0" />
+              <xs:element name="Quantite" msprop:Generator_ColumnVarNameInTable="columnQuantite" msprop:Generator_ColumnPropNameInRow="Quantite" msprop:Generator_ColumnPropNameInTable="QuantiteColumn" msprop:Generator_UserColumnName="Quantite" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:DataTable1" />
+      <xs:field xpath="mstns:Id_Produit" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

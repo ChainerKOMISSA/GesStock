@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="LACAMIONNETTEModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Brasserie">
+    <Key>
+      <PropertyRef Name="Id_Brasserie" />
+    </Key>
+    <Property Name="Id_Brasserie" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nom_Brasserie" Type="nvarchar" MaxLength="250" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Categorie">
+    <Key>
+      <PropertyRef Name="Id_Categorie" />
+    </Key>
+    <Property Name="Id_Categorie" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Libelle_Categorie" Type="nvarchar" MaxLength="250" Nullable="false" />
+    <Property Name="Description_Categorie" Type="nvarchar" MaxLength="250" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Client">
+    <Key>
+      <PropertyRef Name="Id_Client" />
+    </Key>
+    <Property Name="Id_Client" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nom_Client" Type="varchar" MaxLength="250" Nullable="false" />
+    <Property Name="Contact_Client" Type="nvarchar" MaxLength="250" Nullable="false" />
+    <Property Name="Localisation_Client" Type="nvarchar" MaxLength="250" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Commande">
+    <Key>
+      <PropertyRef Name="Id_Commande" />
+    </Key>
+    <Property Name="Id_Commande" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Id_Produit" Type="int" />
+    <Property Name="Id_Modele" Type="int" Nullable="false" />
+    <Property Name="Prix_Achat" Type="int" Nullable="false" />
+    <Property Name="Quantite_Cmd" Type="int" Nullable="false" />
+    <Property Name="Montant_Cmd" Type="int" Nullable="false" />
+    <Property Name="Date_Cmd" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Depense">
+    <Key>
+      <PropertyRef Name="Id_Depense" />
+    </Key>
+    <Property Name="Id_Depense" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Libelle_Depense" Type="nvarchar" MaxLength="250" Nullable="false" />
+    <Property Name="Montant_Depense" Type="int" Nullable="false" />
+    <Property Name="Date_Depense" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Incident">
+    <Key>
+      <PropertyRef Name="Id_Incid" />
+    </Key>
+    <Property Name="Id_Incid" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Libelle_Incid" Type="nvarchar" MaxLength="250" Nullable="false" />
+    <Property Name="Date_Incid" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Modele">
+    <Key>
+      <PropertyRef Name="Id_Modele" />
+    </Key>
+    <Property Name="Id_Modele" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Libelle_Modele" Type="nvarchar" MaxLength="250" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Produit">
+    <Key>
+      <PropertyRef Name="Id_Produit" />
+    </Key>
+    <Property Name="Id_Produit" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nom_Produit" Type="varchar" MaxLength="250" Nullable="false" />
+    <Property Name="Prix_Produit" Type="int" Nullable="false" />
+    <Property Name="Id_Brasserie" Type="int" />
+    <Property Name="Id_Categorie" Type="int" />
+    <Property Name="Id_Modele" Type="int" />
+    <Property Name="Quantite" Type="int" />
+  </EntityType>
+  <EntityType Name="Utilisateur">
+    <Key>
+      <PropertyRef Name="Nom_Ut" />
+    </Key>
+    <Property Name="Nom_Ut" Type="nvarchar" MaxLength="250" Nullable="false" />
+    <Property Name="Mot_de_passe" Type="nvarchar" MaxLength="250" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Vente">
+    <Key>
+      <PropertyRef Name="Id_Vente" />
+    </Key>
+    <Property Name="Id_Vente" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Id_Produit" Type="int" Nullable="false" />
+    <Property Name="Id_Modele" Type="int" Nullable="false" />
+    <Property Name="Prix_Vente" Type="int" Nullable="false" />
+    <Property Name="Quantite_Vente" Type="int" Nullable="false" />
+    <Property Name="Montant_Vente" Type="nvarchar" MaxLength="250" Nullable="false" />
+    <Property Name="Id_Client" Type="int" Nullable="false" />
+    <Property Name="Date_Vente" Type="datetime" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Commande_Produit">
+    <End Role="Produit" Type="Self.Produit" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Commande" Type="Self.Commande" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Produit">
+        <PropertyRef Name="Id_Produit" />
+      </Principal>
+      <Dependent Role="Commande">
+        <PropertyRef Name="Id_Produit" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Produit_Brasserie">
+    <End Role="Brasserie" Type="Self.Brasserie" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Produit" Type="Self.Produit" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Brasserie">
+        <PropertyRef Name="Id_Brasserie" />
+      </Principal>
+      <Dependent Role="Produit">
+        <PropertyRef Name="Id_Brasserie" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Produit_Categorie">
+    <End Role="Categorie" Type="Self.Categorie" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Produit" Type="Self.Produit" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Categorie">
+        <PropertyRef Name="Id_Categorie" />
+      </Principal>
+      <Dependent Role="Produit">
+        <PropertyRef Name="Id_Categorie" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Produit_Modele">
+    <End Role="Modele" Type="Self.Modele" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Produit" Type="Self.Produit" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Modele">
+        <PropertyRef Name="Id_Modele" />
+      </Principal>
+      <Dependent Role="Produit">
+        <PropertyRef Name="Id_Modele" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Vente_Client">
+    <End Role="Client" Type="Self.Client" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Vente" Type="Self.Vente" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Client">
+        <PropertyRef Name="Id_Client" />
+      </Principal>
+      <Dependent Role="Vente">
+        <PropertyRef Name="Id_Client" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Vente_Produit">
+    <End Role="Produit" Type="Self.Produit" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Vente" Type="Self.Vente" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Produit">
+        <PropertyRef Name="Id_Produit" />
+      </Principal>
+      <Dependent Role="Vente">
+        <PropertyRef Name="Id_Produit" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="LACAMIONNETTEModelStoreContainer">
+    <EntitySet Name="Brasserie" EntityType="Self.Brasserie" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Categorie" EntityType="Self.Categorie" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Client" EntityType="Self.Client" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Commande" EntityType="Self.Commande" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Depense" EntityType="Self.Depense" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Incident" EntityType="Self.Incident" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Modele" EntityType="Self.Modele" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Produit" EntityType="Self.Produit" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Utilisateur" EntityType="Self.Utilisateur" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Vente" EntityType="Self.Vente" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Commande_Produit" Association="Self.FK_Commande_Produit">
+      <End Role="Produit" EntitySet="Produit" />
+      <End Role="Commande" EntitySet="Commande" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Produit_Brasserie" Association="Self.FK_Produit_Brasserie">
+      <End Role="Brasserie" EntitySet="Brasserie" />
+      <End Role="Produit" EntitySet="Produit" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Produit_Categorie" Association="Self.FK_Produit_Categorie">
+      <End Role="Categorie" EntitySet="Categorie" />
+      <End Role="Produit" EntitySet="Produit" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Produit_Modele" Association="Self.FK_Produit_Modele">
+      <End Role="Modele" EntitySet="Modele" />
+      <End Role="Produit" EntitySet="Produit" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Vente_Client" Association="Self.FK_Vente_Client">
+      <End Role="Client" EntitySet="Client" />
+      <End Role="Vente" EntitySet="Vente" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Vente_Produit" Association="Self.FK_Vente_Produit">
+      <End Role="Produit" EntitySet="Produit" />
+      <End Role="Vente" EntitySet="Vente" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

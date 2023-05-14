@@ -1,0 +1,379 @@
+D:\GestiondeStock\GestiondeStock\bin\Debug\GestiondeStock.exe.config
+D:\GestiondeStock\GestiondeStock\bin\Debug\GestiondeStock.exe
+D:\GestiondeStock\GestiondeStock\bin\Debug\GestiondeStock.pdb
+D:\GestiondeStock\GestiondeStock\bin\Debug\EntityFramework.dll
+D:\GestiondeStock\GestiondeStock\bin\Debug\EntityFramework.SqlServer.dll
+D:\GestiondeStock\GestiondeStock\bin\Debug\EntityFramework.xml
+D:\GestiondeStock\GestiondeStock\bin\Debug\EntityFramework.SqlServer.xml
+D:\GestiondeStock\GestiondeStock\bin\Debug\fr\EntityFramework.resources.dll
+D:\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.csprojAssemblyReference.cache
+D:\GestiondeStock\GestiondeStock\obj\Debug\MainWindow.g.cs
+D:\GestiondeStock\GestiondeStock\obj\Debug\App.g.cs
+D:\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock_Content.g.cs
+D:\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock_MarkupCompile.cache
+D:\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock_MarkupCompile.lref
+D:\GestiondeStock\GestiondeStock\obj\Debug\MainWindow.baml
+D:\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.g.resources
+D:\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.Formulaires.AjouterBrasserie.resources
+D:\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.MenuPrincipal.resources
+D:\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.Properties.Resources.resources
+D:\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.csproj.GenerateResource.cache
+D:\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.csproj.CoreCompileInputs.cache
+D:\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.csproj.CopyComplete
+D:\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.exe
+D:\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.pdb
+D:\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.Formulaires.AjouterCategorie.resources
+D:\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.Formulaires.ListeCategorie.resources
+D:\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.Formulaires.AjouterClient.resources
+D:\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.Formulaires.ListeClient.resources
+D:\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.Formulaires.AjouterProduit.resources
+D:\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.Formulaires.ListeProduit.resources
+D:\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.Formulaires.AjouterDepense.resources
+D:\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.Formulaires.ListeDepense.resources
+D:\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.Formulaires.AjouterIncident.resources
+D:\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.Formulaires.ListeIncident.resources
+D:\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.Formulaires.AjouterCommande.resources
+D:\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.Formulaires.ListeCommande.resources
+D:\GestiondeStock\GestiondeStock\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+D:\GestiondeStock\GestiondeStock\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+D:\GestiondeStock\GestiondeStock\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+D:\GestiondeStock\GestiondeStock\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+D:\GestiondeStock\GestiondeStock\bin\Debug\AxShockwaveFlashObjects.dll
+D:\GestiondeStock\GestiondeStock\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\GestiondeStock\GestiondeStock\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\GestiondeStock\GestiondeStock\bin\Debug\CrystalDecisions.Shared.dll
+D:\GestiondeStock\GestiondeStock\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\GestiondeStock\GestiondeStock\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\GestiondeStock\GestiondeStock\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+D:\GestiondeStock\GestiondeStock\bin\Debug\Microsoft.ReportViewer.Design.dll
+D:\GestiondeStock\GestiondeStock\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\GestiondeStock\GestiondeStock\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\GestiondeStock\GestiondeStock\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\GestiondeStock\GestiondeStock\bin\Debug\ShockwaveFlashObjects.dll
+D:\GestiondeStock\GestiondeStock\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\GestiondeStock\GestiondeStock\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\GestiondeStock\GestiondeStock\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\GestiondeStock\GestiondeStock\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\GestiondeStock\GestiondeStock\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\GestiondeStock\GestiondeStock\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\GestiondeStock\GestiondeStock\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\GestiondeStock\GestiondeStock\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\GestiondeStock\GestiondeStock\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\GestiondeStock\GestiondeStock\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\GestiondeStock\GestiondeStock\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\GestiondeStock\GestiondeStock\bin\Debug\EnvDTE.dll
+D:\GestiondeStock\GestiondeStock\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+D:\GestiondeStock\GestiondeStock\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+D:\GestiondeStock\GestiondeStock\bin\Debug\stdole.dll
+D:\GestiondeStock\GestiondeStock\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\GestiondeStock\GestiondeStock\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+D:\GestiondeStock\GestiondeStock\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+D:\GestiondeStock\GestiondeStock\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+D:\GestiondeStock\GestiondeStock\bin\Debug\Microsoft.MSXML.dll
+D:\GestiondeStock\GestiondeStock\bin\Debug\fr\EntityFramework.SqlServer.resources.dll
+D:\GestiondeStock\GestiondeStock\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+D:\GestiondeStock\GestiondeStock\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+D:\GestiondeStock\GestiondeStock\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+D:\GestiondeStock\GestiondeStock\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+D:\GestiondeStock\GestiondeStock\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+D:\GestiondeStock\GestiondeStock\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+D:\GestiondeStock\GestiondeStock\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+D:\GestiondeStock\GestiondeStock\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+D:\GestiondeStock\GestiondeStock\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+D:\GestiondeStock\GestiondeStock\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+D:\GestiondeStock\GestiondeStock\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\GestiondeStock\GestiondeStock\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\GestiondeStock\GestiondeStock\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\GestiondeStock\GestiondeStock\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\GestiondeStock\GestiondeStock\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\GestiondeStock\GestiondeStock\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\GestiondeStock\GestiondeStock\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\GestiondeStock\GestiondeStock\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\GestiondeStock\GestiondeStock\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\GestiondeStock\GestiondeStock\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\GestiondeStock\GestiondeStock\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+D:\GestiondeStock\GestiondeStock\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+D:\GestiondeStock\GestiondeStock\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+D:\GestiondeStock\GestiondeStock\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+D:\GestiondeStock\GestiondeStock\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+D:\GestiondeStock\GestiondeStock\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+D:\GestiondeStock\GestiondeStock\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+D:\GestiondeStock\GestiondeStock\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+D:\GestiondeStock\GestiondeStock\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+D:\GestiondeStock\GestiondeStock\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+D:\GestiondeStock\GestiondeStock\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+D:\GestiondeStock\GestiondeStock\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\GestiondeStock\GestiondeStock\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+D:\GestiondeStock\GestiondeStock\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+D:\GestiondeStock\GestiondeStock\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+D:\GestiondeStock\GestiondeStock\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+D:\GestiondeStock\GestiondeStock\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+D:\GestiondeStock\GestiondeStock\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\GestiondeStock\GestiondeStock\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\GestiondeStock\GestiondeStock\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.Formulaires.AjouterVente.resources
+D:\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.Formulaires.ListeVente.resources
+D:\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.Formulaires.ListeBrasserie1.resources
+D:\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.Formulaires.ListeBrasserie2.resources
+D:\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.Formulaires.ListeProdBras.resources
+D:\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.Formulaires.AjouterModele.resources
+D:\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.Formulaires.ListeModele.resources
+D:\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.Formulaires.FormConnexion.resources
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\bin\Debug\GestiondeStock.exe.config
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\bin\Debug\GestiondeStock.exe
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\bin\Debug\GestiondeStock.pdb
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\bin\Debug\AxShockwaveFlashObjects.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\bin\Debug\CrystalDecisions.Shared.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\bin\Debug\EntityFramework.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\bin\Debug\EntityFramework.SqlServer.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\bin\Debug\Microsoft.ReportViewer.Design.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\bin\Debug\ShockwaveFlashObjects.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\bin\Debug\EnvDTE.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\bin\Debug\stdole.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\bin\Debug\Microsoft.MSXML.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\bin\Debug\EntityFramework.xml
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\bin\Debug\EntityFramework.SqlServer.xml
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\bin\Debug\fr\EntityFramework.resources.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\bin\Debug\fr\EntityFramework.SqlServer.resources.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.csprojAssemblyReference.cache
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\obj\Debug\MainWindow.g.cs
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\obj\Debug\App.g.cs
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock_Content.g.cs
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock_MarkupCompile.cache
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock_MarkupCompile.lref
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\obj\Debug\MainWindow.baml
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.g.resources
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.Formulaires.AjouterBrasserie.resources
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.Formulaires.AjouterCategorie.resources
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.Formulaires.AjouterClient.resources
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.Formulaires.AjouterCommande.resources
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.Formulaires.AjouterDepense.resources
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.Formulaires.AjouterIncident.resources
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.Formulaires.AjouterModele.resources
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.Formulaires.AjouterProduit.resources
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.Formulaires.AjouterVente.resources
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.Formulaires.FormConnexion.resources
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.Formulaires.ListeBrasserie1.resources
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.Formulaires.ListeBrasserie2.resources
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.Formulaires.ListeCategorie.resources
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.Formulaires.ListeClient.resources
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.Formulaires.ListeCommande.resources
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.Formulaires.ListeDepense.resources
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.Formulaires.ListeIncident.resources
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.Formulaires.ListeModele.resources
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.Formulaires.ListeProdBras.resources
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.Formulaires.ListeProduit.resources
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.Formulaires.ListeVente.resources
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.MenuPrincipal.resources
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.Properties.Resources.resources
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.csproj.GenerateResource.cache
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.csproj.CoreCompileInputs.cache
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.csproj.CopyComplete
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.exe
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.pdb
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\bin\Debug\Dapper.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\bin\Debug\Dapper.xml
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.Etats.ClientViewer.resources
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.Etats.ProduitViewer.resources
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.Etats.BrasserieViewer.resources
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.Etats.IncidentViewer.resources
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.Etats.DepenseViewer.resources
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.Etats.VenteViewer.resources
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\bin\Debug\GestiondeStock.exe.config
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\bin\Debug\GestiondeStock.exe
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\bin\Debug\GestiondeStock.pdb
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\bin\Debug\AxShockwaveFlashObjects.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\bin\Debug\CrystalDecisions.Shared.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\bin\Debug\Dapper.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\bin\Debug\EntityFramework.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\bin\Debug\EntityFramework.SqlServer.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\bin\Debug\Microsoft.ReportViewer.Design.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\bin\Debug\ShockwaveFlashObjects.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\bin\Debug\EnvDTE.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\bin\Debug\stdole.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\bin\Debug\Microsoft.MSXML.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\bin\Debug\Dapper.xml
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\bin\Debug\EntityFramework.xml
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\bin\Debug\EntityFramework.SqlServer.xml
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\bin\Debug\fr\EntityFramework.resources.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\bin\Debug\fr\EntityFramework.SqlServer.resources.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.csprojAssemblyReference.cache
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\obj\Debug\MainWindow.g.cs
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\obj\Debug\App.g.cs
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock_Content.g.cs
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock_MarkupCompile.cache
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock_MarkupCompile.lref
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\obj\Debug\MainWindow.baml
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.g.resources
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.Etats.BrasserieViewer.resources
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.Etats.ClientViewer.resources
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.Etats.DepenseViewer.resources
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.Etats.IncidentViewer.resources
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.Etats.ProduitViewer.resources
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.Etats.VenteViewer.resources
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.Formulaires.AjouterBrasserie.resources
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.Formulaires.AjouterCategorie.resources
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.Formulaires.AjouterClient.resources
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.Formulaires.AjouterCommande.resources
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.Formulaires.AjouterDepense.resources
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.Formulaires.AjouterIncident.resources
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.Formulaires.AjouterModele.resources
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.Formulaires.AjouterProduit.resources
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.Formulaires.AjouterVente.resources
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.Formulaires.FormConnexion.resources
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.Formulaires.ListeBrasserie1.resources
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.Formulaires.ListeBrasserie2.resources
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.Formulaires.ListeCategorie.resources
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.Formulaires.ListeClient.resources
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.Formulaires.ListeCommande.resources
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.Formulaires.ListeDepense.resources
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.Formulaires.ListeIncident.resources
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.Formulaires.ListeModele.resources
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.Formulaires.ListeProdBras.resources
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.Formulaires.ListeProduit.resources
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.Formulaires.ListeVente.resources
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.MenuPrincipal.resources
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.Properties.Resources.resources
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.csproj.GenerateResource.cache
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.csproj.CoreCompileInputs.cache
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.csproj.CopyComplete
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.exe
+D:\DOCUMENTS\COURS 2020-2021\Semestre 4\STAGE DOSSIER COMPLET\GestiondeStock\GestiondeStock\obj\Debug\GestiondeStock.pdb

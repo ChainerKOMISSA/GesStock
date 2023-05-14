@@ -1,0 +1,735 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{439060A2-7789-4E94-86EF-F28B913B775D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>GestiondeStock</RootNamespace>
+    <AssemblyName>GestiondeStock</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AxShockwaveFlashObjects, Version=1.0.0.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="Dapper, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Dapper.2.0.90\lib\net461\Dapper.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1449.0\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1449.0\lib\net40\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1449.0\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1449.0\lib\net40\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1449.0\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.SqlServer.Types.14.0.314.76\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="Brasserie.cs">
+      <DependentUpon>LACAMIONNETTE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Categorie.cs">
+      <DependentUpon>LACAMIONNETTE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Classes Report\Brasserie.cs" />
+    <Compile Include="Classes Report\Client.cs" />
+    <Compile Include="Classes Report\Dépenses.cs" />
+    <Compile Include="Classes Report\Incident.cs" />
+    <Compile Include="Classes Report\Produit.cs" />
+    <Compile Include="Classes Report\Vente.cs" />
+    <Compile Include="Classes\ClsCategorie.cs" />
+    <Compile Include="Classes\ClsClient.cs" />
+    <Compile Include="Classes\ClsCommande.cs" />
+    <Compile Include="Classes\ClsConnexion.cs" />
+    <Compile Include="Classes\ClsDepense.cs" />
+    <Compile Include="Classes\ClsIncident.cs" />
+    <Compile Include="Classes\ClsModele.cs" />
+    <Compile Include="Classes\ClsProduit.cs" />
+    <Compile Include="Classes\ClsUser.cs" />
+    <Compile Include="Classes\ClsVente.cs" />
+    <Compile Include="Client.cs">
+      <DependentUpon>LACAMIONNETTE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Commande.cs">
+      <DependentUpon>LACAMIONNETTE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBSQLServerUtils.cs" />
+    <Compile Include="DBUtils.cs" />
+    <Compile Include="Depense.cs">
+      <DependentUpon>LACAMIONNETTE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Etats\BrasserieViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Etats\BrasserieViewer.Designer.cs">
+      <DependentUpon>BrasserieViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Etats\ClientViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Etats\ClientViewer.Designer.cs">
+      <DependentUpon>ClientViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Etats\DataSetBrasserie.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetBrasserie.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Etats\DataSetClient.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetClient.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Etats\DataSetDepense.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetDepense.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Etats\DataSetIncident.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetIncident.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Etats\DataSetProduit.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetProduit.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Etats\DataSetVente.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetVente.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Etats\DepenseViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Etats\DepenseViewer.Designer.cs">
+      <DependentUpon>DepenseViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Etats\IncidentViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Etats\IncidentViewer.Designer.cs">
+      <DependentUpon>IncidentViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Etats\ProduitViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Etats\ProduitViewer.Designer.cs">
+      <DependentUpon>ProduitViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Etats\ReportBrasserie.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReportBrasserie.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Etats\ReportClient.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReportClient.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Etats\ReportDepense.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReportDepense.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Etats\ReportIncident.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReportIncident.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Etats\ReportProduit.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReportProduit.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Etats\ReportVente.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReportVente.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Etats\VenteViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Etats\VenteViewer.Designer.cs">
+      <DependentUpon>VenteViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formulaires\AjouterBrasserie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulaires\AjouterBrasserie.Designer.cs">
+      <DependentUpon>AjouterBrasserie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formulaires\AjouterCategorie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulaires\AjouterCategorie.Designer.cs">
+      <DependentUpon>AjouterCategorie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formulaires\AjouterClient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulaires\AjouterClient.Designer.cs">
+      <DependentUpon>AjouterClient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formulaires\AjouterCommande.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulaires\AjouterCommande.Designer.cs">
+      <DependentUpon>AjouterCommande.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formulaires\AjouterDepense.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulaires\AjouterDepense.Designer.cs">
+      <DependentUpon>AjouterDepense.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formulaires\AjouterIncident.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulaires\AjouterIncident.Designer.cs">
+      <DependentUpon>AjouterIncident.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formulaires\AjouterModele.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulaires\AjouterModele.Designer.cs">
+      <DependentUpon>AjouterModele.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formulaires\AjouterProduit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulaires\AjouterProduit.Designer.cs">
+      <DependentUpon>AjouterProduit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formulaires\AjouterVente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulaires\AjouterVente.Designer.cs">
+      <DependentUpon>AjouterVente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formulaires\FormConnexion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulaires\FormConnexion.Designer.cs">
+      <DependentUpon>FormConnexion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formulaires\ListeBrasserie1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Formulaires\ListeBrasserie1.Designer.cs">
+      <DependentUpon>ListeBrasserie1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formulaires\ListeCategorie.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Formulaires\ListeCategorie.Designer.cs">
+      <DependentUpon>ListeCategorie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formulaires\ListeClient.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Formulaires\ListeClient.Designer.cs">
+      <DependentUpon>ListeClient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formulaires\ListeCommande.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Formulaires\ListeCommande.Designer.cs">
+      <DependentUpon>ListeCommande.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formulaires\ListeDepense.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Formulaires\ListeDepense.Designer.cs">
+      <DependentUpon>ListeDepense.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formulaires\ListeIncident.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Formulaires\ListeIncident.Designer.cs">
+      <DependentUpon>ListeIncident.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formulaires\ListeModele.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Formulaires\ListeModele.Designer.cs">
+      <DependentUpon>ListeModele.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formulaires\ListeProdBras.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Formulaires\ListeProdBras.Designer.cs">
+      <DependentUpon>ListeProdBras.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formulaires\ListeProduit.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Formulaires\ListeProduit.Designer.cs">
+      <DependentUpon>ListeProduit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formulaires\ListeVente.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Formulaires\ListeVente.Designer.cs">
+      <DependentUpon>ListeVente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Incident.cs">
+      <DependentUpon>LACAMIONNETTE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LACAMIONNETTE.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LACAMIONNETTE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LACAMIONNETTEDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LACAMIONNETTEDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Modele.cs">
+      <DependentUpon>LACAMIONNETTE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Produit.cs">
+      <DependentUpon>LACAMIONNETTE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SqlServerTypes\Loader.cs" />
+    <Compile Include="Utilisateur.cs">
+      <DependentUpon>LACAMIONNETTE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Vente.cs">
+      <DependentUpon>LACAMIONNETTE.tt</DependentUpon>
+    </Compile>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\ClsBrasserie.cs" />
+    <Compile Include="Formulaires\ListeBrasserie2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Formulaires\ListeBrasserie2.Designer.cs">
+      <DependentUpon>ListeBrasserie2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LACAMIONNETTE.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LACAMIONNETTE.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LACAMIONNETTE.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LACAMIONNETTE.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MenuPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuPrincipal.Designer.cs">
+      <DependentUpon>MenuPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Etats\BrasserieViewer.resx">
+      <DependentUpon>BrasserieViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Etats\ClientViewer.resx">
+      <DependentUpon>ClientViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Etats\DepenseViewer.resx">
+      <DependentUpon>DepenseViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Etats\IncidentViewer.resx">
+      <DependentUpon>IncidentViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Etats\ProduitViewer.resx">
+      <DependentUpon>ProduitViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Etats\ReportBrasserie.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ReportBrasserie.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Etats\ReportClient.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ReportClient.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Etats\ReportDepense.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ReportDepense.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Etats\ReportIncident.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ReportIncident.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Etats\ReportProduit.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ReportProduit.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Etats\ReportVente.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ReportVente.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Etats\VenteViewer.resx">
+      <DependentUpon>VenteViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulaires\AjouterBrasserie.resx">
+      <DependentUpon>AjouterBrasserie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulaires\AjouterCategorie.resx">
+      <DependentUpon>AjouterCategorie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulaires\AjouterClient.resx">
+      <DependentUpon>AjouterClient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulaires\AjouterCommande.resx">
+      <DependentUpon>AjouterCommande.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulaires\AjouterDepense.resx">
+      <DependentUpon>AjouterDepense.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulaires\AjouterIncident.resx">
+      <DependentUpon>AjouterIncident.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulaires\AjouterModele.resx">
+      <DependentUpon>AjouterModele.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulaires\AjouterProduit.resx">
+      <DependentUpon>AjouterProduit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulaires\AjouterVente.resx">
+      <DependentUpon>AjouterVente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulaires\FormConnexion.resx">
+      <DependentUpon>FormConnexion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulaires\ListeBrasserie1.resx">
+      <DependentUpon>ListeBrasserie1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulaires\ListeBrasserie2.resx">
+      <DependentUpon>ListeBrasserie2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulaires\ListeCategorie.resx">
+      <DependentUpon>ListeCategorie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulaires\ListeClient.resx">
+      <DependentUpon>ListeClient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulaires\ListeCommande.resx">
+      <DependentUpon>ListeCommande.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulaires\ListeDepense.resx">
+      <DependentUpon>ListeDepense.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulaires\ListeIncident.resx">
+      <DependentUpon>ListeIncident.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulaires\ListeModele.resx">
+      <DependentUpon>ListeModele.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulaires\ListeProdBras.resx">
+      <DependentUpon>ListeProdBras.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulaires\ListeProduit.resx">
+      <DependentUpon>ListeProduit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulaires\ListeVente.resx">
+      <DependentUpon>ListeVente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuPrincipal.resx">
+      <DependentUpon>MenuPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EntityDeploy Include="LACAMIONNETTE.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>LACAMIONNETTE.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="Etats\DataSetBrasserie.xsc">
+      <DependentUpon>DataSetBrasserie.xsd</DependentUpon>
+    </None>
+    <None Include="Etats\DataSetBrasserie.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetBrasserie.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Etats\DataSetBrasserie.xss">
+      <DependentUpon>DataSetBrasserie.xsd</DependentUpon>
+    </None>
+    <None Include="Etats\DataSetClient.xsc">
+      <DependentUpon>DataSetClient.xsd</DependentUpon>
+    </None>
+    <None Include="Etats\DataSetClient.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetClient.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Etats\DataSetClient.xss">
+      <DependentUpon>DataSetClient.xsd</DependentUpon>
+    </None>
+    <None Include="Etats\DataSetDepense.xsc">
+      <DependentUpon>DataSetDepense.xsd</DependentUpon>
+    </None>
+    <None Include="Etats\DataSetDepense.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetDepense.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Etats\DataSetDepense.xss">
+      <DependentUpon>DataSetDepense.xsd</DependentUpon>
+    </None>
+    <None Include="Etats\DataSetIncident.xsc">
+      <DependentUpon>DataSetIncident.xsd</DependentUpon>
+    </None>
+    <None Include="Etats\DataSetIncident.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetIncident.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Etats\DataSetIncident.xss">
+      <DependentUpon>DataSetIncident.xsd</DependentUpon>
+    </None>
+    <None Include="Etats\DataSetProduit.xsc">
+      <DependentUpon>DataSetProduit.xsd</DependentUpon>
+    </None>
+    <None Include="Etats\DataSetProduit.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetProduit.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Etats\DataSetProduit.xss">
+      <DependentUpon>DataSetProduit.xsd</DependentUpon>
+    </None>
+    <None Include="Etats\DataSetVente.xsc">
+      <DependentUpon>DataSetVente.xsd</DependentUpon>
+    </None>
+    <None Include="Etats\DataSetVente.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetVente.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Etats\DataSetVente.xss">
+      <DependentUpon>DataSetVente.xsd</DependentUpon>
+    </None>
+    <None Include="LACAMIONNETTE.edmx.diagram">
+      <DependentUpon>LACAMIONNETTE.edmx</DependentUpon>
+    </None>
+    <None Include="LACAMIONNETTEDataSet.xsc">
+      <DependentUpon>LACAMIONNETTEDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="LACAMIONNETTEDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LACAMIONNETTEDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LACAMIONNETTEDataSet.xss">
+      <DependentUpon>LACAMIONNETTEDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-bouteille-de-vin-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-circulation-de-l&amp;#39%3bargent-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-groupe-d%27utilisateurs-femme-femme-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-ordre-d%27achat-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-explosion-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-société-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-catégorie-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-money-bag-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-administrateur-homme-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="LACAMIONNETTE.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>LACAMIONNETTE.Context.cs</LastGenOutput>
+      <DependentUpon>LACAMIONNETTE.edmx</DependentUpon>
+    </Content>
+    <Content Include="LACAMIONNETTE.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>LACAMIONNETTE.edmx</DependentUpon>
+      <LastGenOutput>LACAMIONNETTE.cs</LastGenOutput>
+    </Content>
+    <None Include="Resources\icons8-balance-3d-48.png" />
+    <None Include="Resources\icons8-nom-481.png" />
+    <None Include="Resources\icons8-paramètres-48.png" />
+    <None Include="Resources\icons8-connexion-48.png" />
+    <None Include="Resources\icons8-restauration-de-sauvegarde-sur-le-cloud-48.png" />
+    <None Include="Resources\icons8-déconnexion-48.png" />
+    <None Include="Resources\icons8-fermer-48.png" />
+    <None Include="Resources\icons8-réduire-la-fenêtre-48.png" />
+    <None Include="Resources\icons8-utilisateur-48.png" />
+    <None Include="Resources\icons8-verrouiller-2-48.png" />
+    <None Include="Resources\icons8-cadenas-50.png" />
+    <None Include="Resources\icons8-cadenas-24.png" />
+    <None Include="Resources\icons8-ajouter-un-utilisateur-homme-48.png" />
+    <None Include="Resources\icons8-modifier-l%27utilisateur-homme-48.png" />
+    <None Include="Resources\icons8-supprimer-l%27utilisateur-homme-48.png" />
+    <None Include="Resources\icons8-utilisateur-vérifié-homme-48.png" />
+    <None Include="Resources\icons8-utilisateur-vérifié-homme-481.png" />
+    <None Include="Resources\icons8-classer-par-catégories-48.png" />
+    <None Include="Resources\icons8-chanfrein-48.png" />
+    <None Include="Resources\icons8-expédié-48.png" />
+    <None Include="Resources\icons8-crayon-48.png" />
+    <None Include="Resources\icons8-supprimer-pour-toujours-48.png" />
+    <None Include="Resources\icons8-utilisateur-vérifié-homme-482.png" />
+    <Content Include="SqlServerTypes\readme.htm" />
+    <Content Include="SqlServerTypes\x64\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x64\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\icons8-bouteille-brisée-48.png" />
+    <None Include="Resources\icons8-sac-d%27argent-48.png" />
+    <None Include="Resources\icons8-calendrier-12-48.png" />
+    <None Include="Resources\icons8-money-64.png" />
+    <None Include="Resources\icons8-sac-d%27argent-48 %281%29.png" />
+    <None Include="Resources\icons8-lieu-dans-le-monde-entier-48.png" />
+    <None Include="Resources\icons8-téléphone-48.png" />
+    <None Include="Resources\icons8-nom-48.png" />
+    <None Include="Resources\icons8-impression-481.png" />
+    <None Include="Resources\icons8-supprimer-la-propriété-48.png" />
+    <None Include="Resources\icons8-modifier-la-propriété-48.png" />
+    <None Include="Resources\icons8-créer-un-nouveau-48.png" />
+    <None Include="Resources\icons8-usine-48.png" />
+    <None Include="Resources\icons8-impression-48.png" />
+    <None Include="Resources\icons8-ajouter-une-propriété-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
